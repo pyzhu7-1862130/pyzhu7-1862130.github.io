@@ -1,0 +1,39 @@
+/* Our CSS Document */
+
+body {
+    background-color: lightslategrey;
+}
+
+.margielaImg {
+    height: 50px;
+    width: 50px;
+}
+
+#margielaPortrait {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+#portrait {
+    position: relative;
+}
+
+#portaitText {
+    left: 50%;
+    border-style: dotted;
+    border-width: thin;
+    text-shadow: 5px 5px 5px skyblue;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    color: darkred;
+}
+
+#tabi {
+    float: right;
+    width: 150px;
+}
