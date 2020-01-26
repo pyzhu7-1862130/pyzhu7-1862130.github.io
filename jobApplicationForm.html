@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stylist Application</title>
+</head>
+<body>
+    <div="mainContent">
+        <h1>Stylist Application</h1>
+        <p></p>
+        <div class="formClass">
+            <form action="http://gclass.alexburner.com/formtest.php" method="post">
+                <fieldset>
+                    <legend>Basic Information</legend>
+                    <label>First name: </label><input type="text" name="firstname"/><br/>
+                    <label>Last name: </label><input type="text" name="lastname"/><br/>
+                    <label>Middle name: </label><input type="text" name="middlename"/><br/><br/>
+                    <label>Email: </label><input type="email" name="replyto"/><br/>
+                    <p>Please choose your gender: </p>
+                    <input type="radio" name="answer" value="male"> Male<br/> 
+                    <input type="radio" name="answer" value="female"> Female<br/>
+                    <input type="radio" name="answer" value="other"> Other<br/>
+                    Nationality<br/>
+                    <select name="nationality">
+                        <option value="US">United States</option>
+                        <option value="China">China</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Korea">Korea</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Job Interest</legend>
+                    <p>Which job are you interested in applying? (Choose all that apply)</p>
+                    <input type="checkbox" name="jobtitle" value="intern"> Internship<br/>
+                    <input type="checkbox" name="jobtitle" value="senior"> Senior Stylist<br/>
+                    <input type="checkbox" name="jobtitle" value="client"> Private Client Stylist<br/>
+                    <p>Why are you interested in applying for the selected position? </p>
+                    <textarea type="essay">Text here...</textarea><br/>
+                    <input type="submit" value="save">
+                </fieldset> 
+
+                <input type="submit" value="Submit form">
+        </div>
+    </div>
+</body>
+</html>
