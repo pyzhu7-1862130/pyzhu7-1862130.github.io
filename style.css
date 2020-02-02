@@ -311,7 +311,7 @@
 		-ms-appearance: none;
 		appearance: none;
 		display: block;
-		float: left;
+		float: center;
 		margin-right: -2em;
 		opacity: 0;
 		width: 1em;
@@ -1097,7 +1097,7 @@
 
 			.wrapper.style2 .profile img {
 				border-radius: 50%;
-				float: left;
+				float: center;
 				margin-bottom: 1em;
 				margin-right: 1em;
 			}
@@ -1219,4 +1219,8 @@
 
 		.grid-demo .row.flush > div:last-child span {
 			border-radius: 0 4px 4px 0;
+		}
+
+		.row>* {
+			float: center;
 		}
